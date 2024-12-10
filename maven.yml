@@ -4,10 +4,10 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
 trigger:
-- {{ branch }}
+- main
 
 pool:
-  {{ pool }}
+  default
 
 steps:
 - task: Maven@3
